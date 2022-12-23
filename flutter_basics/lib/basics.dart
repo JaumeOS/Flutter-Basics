@@ -38,6 +38,7 @@ void main() {
   int seriesLliurades = totalSeriesLliurades(series);
   int videojocsLliurats = totalVideojocsLliurats(videojocs);
   int objectesLliurats = seriesLliurades + videojocsLliurats;
+  // ignore: avoid_print
   print("Hi ha un total de $objectesLliurats objectes lliurats, $seriesLliurades series i $videojocsLliurats videojocs");
 
   /* Amb aquest metode sabrem quin dels dos objectes te mes temporades(en el cas de les series)
